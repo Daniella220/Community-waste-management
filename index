@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+ body{
+            background-color: lightblue;
+            line-height: 1.6;
+h1{
+color:white;
+text-align:center;
+}
+h2{
+color:white;
+text-align:center;
+}
+h3{
+color:white;
+text-align:center;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Waste Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CleanCommunity</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Report Issue</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Community Waste Reporting & Management</h1>
+            <p>Improving communication between residents, collectors, and authorities to promote environmental sustainability.</p>
+        </section>
+
+        <section class="content">
+            <h2>The Problem</h2>
+            <p>Poor waste management leads to environmental pollution and health risks like the spread of diseases[cite: 1]. Currently, residents lack a way to report overflowing bins or illegal dumping effectively[cite: 1].</p>
+            
+            <h2>Our Solution</h2>
+            <p>This web application provides a centralized platform for real-time reporting, tracking collection schedules, and improving accountability[cite: 1].</p>
+        </section>
+
+        <section class="beneficiaries">
+            <h3>Who We Serve</h3>
+            <ul>
+                <li>Community Residents[cite: 1]</li>
+                <li>Waste Collection Staff[cite: 1]</li>
+                <li>Municipal Authorities[cite: 1]</li>
+                <li>System Administrators[cite: 1]</li>
+            </ul>
+        </section>
+    </main> 
+<a href="page4.html"> report</a>
+</body>
+</html>

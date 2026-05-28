@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Waste - Waste Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="purple">
+    <header>
+        <nav>
+            <div class="logo">CleanCommunity</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Report Issue</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <h1>Waste Issue Report Form</h1>
+        <p>Please fill out the details below to notify local authorities[cite: 1].</p>
+        
+        <form action="#" method="post"><br/>
+            <label for="reporter_name">Full Name:</label>
+            <input type="text" id="reporter_name" name="reporter_name" required><br><br>
+
+            <label for="location">Location / Address:</label><br/>
+            <input type="text" id="location" name="location" placeholder="Street or Neighborhood" required><br><br>
+
+            <label for="issue_type">Issue Category:</label><br/>
+            <select id="issue_type" name="issue_type">
+                <option value="overflowing">Overflowing Bin</option>
+                <option value="illegal_dumping">Illegal Dumping</option>
+                <option value="missed_collection">Missed Collection</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="description">Detailed Description:</label><br><br>
+            <textarea id="description" name="description" rows="5" required></textarea><br><br>
+
+            <button type="submit" class="submit-btn">Submit Report</button>
+        </form>
+    </main>
+<a href="page3.html">back to home</a>
+</body>
+</html>
